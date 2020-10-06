@@ -13,3 +13,9 @@ aiohttp==3.6.2
 prettytable==1.0.0
 
 
+# read from .env file
+python-dotenv==0.14.0
+
+# for pretty console
+yaspin==1.1.0
+tqdm==4.50.0
