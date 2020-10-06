@@ -6,6 +6,10 @@ This will be collection of python scripts for Fantasy Premier League
 ## Current Features
 - Get sorted mini-league managers based on points output to console and csv file
 
+Note: League ID is the number you see on url on your browser when you open the mini-league.
+
+Here is example: League ID on image below is 14476
+<img src="https://i.imgur.com/jx2Fm8u.png" alt="fantasy_mini_leauge_on_browser"></img>
 ## How to run the script
 1. Install python on your system and version should be `3.6+`
 2. Clone the repository or download zip available by slecting download icon with code
