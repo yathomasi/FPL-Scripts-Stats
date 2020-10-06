@@ -1,0 +1,15 @@
+# linter and formatter
+flake8==3.8.4
+black==20.8b1
+
+
+# fpl wrapper
+fpl==0.6.25
+
+# async http
+aiohttp==3.6.2
+
+#pretty table
+prettytable==1.0.0
+
+
