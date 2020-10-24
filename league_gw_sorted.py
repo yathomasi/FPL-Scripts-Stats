@@ -54,13 +54,15 @@ async def fpl_league_standing(league_id, table):
             all_standings = []
             try:
                 event_status, GW = await event_finished_status(fpl.session)
-                Path(f"GW{4}").mkdir(parents=True, exist_ok=True)
+                Path(f"GW{GW}").mkdir(parents=True, exist_ok=True)
             except Exception as e:
                 logging.error(e)
             if event_status:
                 spinner.write(f">> Gameweek {GW} is finished ")
             else:
-                spinner.write(f"!! Gameweek {GW} is not finished or updating. !!")
+                spinner.write(
+                    f"!!! Gameweek {GW} is not finished or it's updating... !!"
+                )
 
             while True:
                 standings = await classic_league.get_standings(
