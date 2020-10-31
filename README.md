@@ -44,6 +44,8 @@ python league_gw_sorted.py -h
 python league_gw_sorted.py -l 1234 2345
 #by default it also prints table to console you can disable by passing -nt or --no-table tag
 python league_gw_sorted.py -l 1123 -nt
+# for no of players stat
+ python get_picks_teams.py -g 7 -t 1234 2345
 ```
 7. Find the respective Gameweek folder name `GW` and you will find the exported csv file and also by defaults you can see printed table on console too
 
